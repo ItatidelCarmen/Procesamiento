@@ -1,0 +1,97 @@
+.contenedor {
+  width:100%;
+  height:100%;
+  background-color: #807ca1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  width:100%;
+  height:100%;
+  background-color: #8dac13;
+}
+.titulo{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  font-size:42px;
+}
+.ce1{
+  text-align: left;
+}
+.ce2{
+  text-align: right;
+}
+
+
+.grupo-de-Labels{
+  justify-self: center;
+  width: 100%;
+  height: 10%;
+  display:grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas:
+    "MAGNITUD FASE"
+}
+.MAGNITUD {
+  grid-area: Magnitud;
+}
+.FASE {
+  grid-area: Fase;
+}
+.boton1 {
+  display: flexbox;
+  width: 50%;
+  height: 80%;
+  border-radius: 15px;
+  font-size: 29px;
+  padding: 0;
+  margin: 16px;
+  border: none;
+  background-color: rgb(67, 158, 58);
+  justify-self: center;
+}
+.Graficas {
+  justify-self: center;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas:
+    "primera-grafica segunda-grafica"
+}
+.primera-grafica {
+  grid-area: primera-grafica;
+}
+.segunda-grafica {
+  grid-area: segunda-grafica;
+}
+.primera-grafica{
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(228, 230, 116);
+  flex-direction: row;
+  border: none;
+  color: black;
+  font-size: 100%; 
+  padding: auto;
+  margin: 16px 16px 0px;
+}
+.segunda-grafica {
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(100, 218, 119);
+  flex-direction: row;
+  border: none;
+  color: black;
+  font-size: 100%; 
+  margin: 16px 16px;
+}
+img{
+  vertical-align: middle;
+}
